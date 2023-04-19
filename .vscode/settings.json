@@ -1,0 +1,22 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/codemodel.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/dtd-parser.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/FastInfoset.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/istack-commons-runtime.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/istack-commons-tools.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/javax.activation-api.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/jaxb-api.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/jaxb-jxc.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/jaxb-runtime.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/jaxb-xjc.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/relaxng-datatype.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/rngom.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/stax-ex.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/txw2.jar",
+        "jaxb-ri-2.3.1/jaxb-ri/mod/xsom.jar"
+    ]
+}
