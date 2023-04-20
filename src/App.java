@@ -5,7 +5,7 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import UserDefinedException.*;
-import AnnotatedClasses.Autosar;
+import AnnotatedClasses.*;
 
 public class App {
     public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class App {
             Autosar autosar = (Autosar) jaxbUnmarshaller.unmarshal(file);
 
             // get unmarshalled objects and sort them based on short-name field.
-            ArrayList<Autosar.Container> containers = autosar.getContainers();
+            ArrayList<Container> containers = autosar.getContainers();
             Collections.sort(containers);
     
             // create a new file with modified original file name.
